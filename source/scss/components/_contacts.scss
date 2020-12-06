@@ -1,0 +1,71 @@
+.contacts {
+    background-image: url('../img/contacts/background.png');
+    background-position: center;
+}
+
+.contacts__container {
+    padding: 0.5em;
+    margin: 1em auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left__container {
+    padding: 0.5em;
+    width: 100%;
+}
+
+.right__container {
+    padding: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contacts__title {
+    font-family: 'Playfair Display';
+    font-size: clamp(18px, 2.5vw, 33px);
+    color: #D4C17F;
+}
+
+.contacts__text {
+    margin-top: 0.4em;
+    font-size: clamp(13px, 1.5vw, 18px);
+    padding: 0.1em;
+    color:  #FFFFFF;
+}
+
+.input__contacts {
+    margin: 0.2em auto;
+    font-family: 'raleway';
+    font-size: clamp(8px, 1vw, 12px);
+    padding: 0.2em;
+    width: 70%;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.terms {
+    padding: 0.2em;
+    margin: 0.2em auto;
+    width: 70%;
+    font-family: 'raleway';
+    text-align: center;
+    font-family: 'raleway';
+    font-size: clamp(8px, 0.8vw, 12px);
+    color: #FFFFFF;
+}
+
+.register__btn {
+    margin: 0.2em auto;
+    width: 70%;
+    padding: 0.2em;
+    font-family: 'raleway';
+    font-size: clamp(8px, 1vw, 12px);
+    background-color: #D4C17F;
+    color: #FFFFFF;
+}

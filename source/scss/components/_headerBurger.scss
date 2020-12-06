@@ -1,0 +1,36 @@
+.menu {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin: 1.5em;
+    right: 1em;
+    width: 30px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.header__burger {
+    position: absolute;
+    top: 5px;
+    height: 2px;
+    width: 30px;
+    background-color: #ffffff;
+}
+
+.header__burger:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    height: 2px;
+    width: 30px;
+    background-color: #ffffff;
+}
+
+.header__burger:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    height: 2px;
+    width: 30px;
+    background-color: #ffffff;
+}

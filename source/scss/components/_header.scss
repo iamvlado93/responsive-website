@@ -1,0 +1,118 @@
+.header {
+    width: 100%;
+    background-image: url('../img/header/header-background.png');
+}
+
+.main__container {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header__container {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding: 0.1em;
+    margin-top: 0.8em;
+}
+
+.header__text {
+    margin: 0.2em 0em 0.2em 0em;
+    font-family: 'big shoulders stencil display';
+    font-size: clamp(18px, 2.5vw, 60px);
+    line-height: 1em;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+}
+
+.header__subtext {
+    font-family: 'raleway';
+    font-size: clamp(7px, 0.8vw, 14px);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.header__list {
+    padding: 0.4em;
+    display: flex;
+    align-items: center;
+    font-family: 'raleway';
+    font-size: clamp(12px, 1vw, 20px);
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+    list-style-type: none;
+    color: #ffffff;
+}
+.header__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__link:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    color: #D4C17F;
+}
+
+.header__item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 3em;
+    margin: 0.82em;
+    padding: 0%;
+}
+
+.header__intro {
+    width: 70%;
+    margin: 4em auto 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro__title {
+    margin-top: 3em;
+    padding: 0.2em;
+    font-family: 'Playfair Display';
+    font-size: clamp(20px, 3.5vw, 64px);
+    line-height: 5vw;
+    text-align: center;
+    color: #D4C17F;
+}
+
+.mouse {
+    font-size: clamp(14px, 3vw, 14px);
+    margin-top: 6em;
+}
+
+.intro__mouse {
+    height: 8em;
+    width: 8em;
+    filter: contrast(40%) sepia(60%) hue-rotate(2deg) brightness(2.5) saturate(200%);
+}
+
+.intro__info {
+    font-family: 'raleway';
+    font-size: clamp(8px, 1vw, 18px);
+    width: 90%;
+    margin-top: 5.5em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+.intro__span {
+    width: 0.8em;
+    height: 1em;
+    margin-right: 0.5em;
+}
