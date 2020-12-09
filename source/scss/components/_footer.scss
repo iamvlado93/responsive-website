@@ -13,15 +13,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 0.2em;
     width: 100%;
 }
 
 .footer__list {
     font-family: 'raleway';
-    font-size: clamp(12px, 1vw, 18px);
-    margin: 0.4 auto;
+    font-size: clamp(10px, 1vw, 16px);
+    margin: 0 auto;
     list-style-type: none;
     color: #ffffff;
 }
@@ -42,22 +41,19 @@
     text-decoration: none;
 }
 
-.footer__item {
-    margin: 0.4em 0em;
-}
-
 .social__items {
-    padding: 0.2em;
     margin: 0 auto;
+    padding: 0.1em;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .social__icon {
     font-size: clamp(14px, 2vw, 14px);
     margin: 0.4em 0.5em;
-    width: 1.5em;
-    height: 1.1em;
+    width: 1.2em;
+    height: 1em;
     filter: invert(0.5);
 }
 

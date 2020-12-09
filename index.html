@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <wrap class="wrap">
+    <div class="wrap">
         <header class="header">
             <div class="main__container">
                 <div class="header__container">
@@ -17,13 +17,13 @@
                         <h3 class="header__text">HouseVOP</h3>
                         <p class="header__subtext">Жилой комплекс</p>
                     </div>
-                    <ul class="header__list">
-                        <a class="header__link" href="#"><li class="header__item">О Комплексе</li></a>
-                        <a class="header__link" href="#"><li class="header__item">Район</li></a>
-                        <a class="header__link" href="#"><li class="header__item">Каталог квартир</li></a>
-                        <a class="header__link" href="#"><li class="header__item">Ипотека</li></a>
-                        <a class="header__link" href="#"><li class="header__item">Контакты</li></a>
-                    </ul>
+                    <div class="header__list">
+                        <a class="header__link" href="#">О Комплексе<a class="header__link" href="#"></a>
+                        <a class="header__link" href="#">Район<a class="header__link" href="#"></a>
+                        <a class="header__link" href="#">Каталог квартир<a class="header__link" href="#"></a>
+                        <a class="header__link" href="#">Ипотека<a class="header__link" href="#"></a>
+                        <a class="header__link" href="#">Контакты</a>
+                    </div>
                 </div>
                 <div class="menu">
                     <span class="header__burger"></span>
@@ -33,9 +33,9 @@
                     <a class="mouse" href="#"><img class="intro__mouse" src="./source/img/header/mouse.png" alt="mouse"></a>
                     <div class="intro__info">
                         <p class="intro__address">
-                            <img class="intro__span" src="./source/img/header/vector.png">Наб. реки фонтанки 10-15</p>
+                            <img class="intro__span" src="./source/img/header/vector.png" alt="vector">Наб. реки фонтанки 10-15</p>
                         <p class="intro__contacts">
-                            <img class="intro__span" src="./source/img/header/phone.png">8 (812) 123-45-67</p>
+                            <img class="intro__span" src="./source/img/header/phone.png" alt="phone">8 (812) 123-45-67</p>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </main>
-        <contacts class="contacts">
+        <section class="contacts">
             <div class="contacts__container">
                 <div class="left__container">
                     <h2 class="contacts__title">Хотите посмотреть?</h2>
@@ -86,17 +86,15 @@
                     <p class="terms">Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
                     <button class="register__btn" type="submit">Посмотреть район</button>
                 </div>
-            </div>
-        </contacts>   
-        <section class="video">
+            </div>  
             <div class="video__container">
                 <img class="video__item" src="source/img/contacts/video.png" alt="video">
             </div>
         </section>
-        <location class="location">
+        <section class="location">
             <div class="location__container">
                 <h2 class="location__title">Район на карте</h2>
-                <img class="location__map" src="./source/img/location/map.png">
+                <img class="location__map" src="./source/img/location/map.png" alt ="map">
                 <h2 class="location__title">Eсть вопросы?</h2>
                 <div class="questions__container">
                     <p class="questions__terms">Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
@@ -105,7 +103,7 @@
                     <button class="questions__btn" type="submit">Посмотреть район</button>
                 </div>
             </div>     
-        </location>
+        </section>
         <footer class="footer">
             <div class="footer__container">
                 <div class="footer__section">
@@ -115,21 +113,21 @@
                     </ul>
                 </div>
                 <div class="footer__section">
-                    <ul class="footer__list">
-                        <a class="footer__links" href="#"><li class="footer__item">О Комплексе</li></a>
-                        <a class="footer__links" href="#"><li class="footer__item">Район</li></a>
-                        <a class="footer__links" href="#"><li class="footer__item">Каталог квартир</li></a>
-                        <a class="footer__links" href="#"><li class="footer__item">Ипотека</li></a>
-                        <a class="footer__links" href="#"><li class="footer__item">Контакты</li></a>
+                    <ul class="footer__list footer__list-inner">
+                        <li class="footer__items">О Комплексе<a class="footer__links" href="#"></a></li>
+                        <li class="footer__items">Район<a class="footer__links" href="#"></a></li>
+                        <li class="footer__items">Каталог квартир<a class="footer__links" href="#"></a></li>
+                        <li class="footer__items">Ипотека<a class="footer__links" href="#"></a></li>
+                        <li class="footer__items">Контакты<a class="footer__links" href="#"></a></li>
                     </ul>
                 </div>
                 <div class="footer__section">
-                    <ul class="footer__list">
-                        <a class="footer__links" href="#"><li class="footer__item">О Комплексе</li></a>
-                        <a class="footer__links" href="#"><li class="footer__item">Район</li></a>
-                        <a class="footer__links" href="#"><li class="footer__item">Каталог квартир</li></a>
-                        <a class="footer__links" href="#"><li class="footer__item">Ипотека</li></a>
-                        <a class="footer__links" href="#"><li class="footer__item">Контакты</li></a>
+                    <ul class="footer__list footer__list-inner">
+                        <li class="footer__items">О Комплексе<a class="footer__links" href="#"></a></li>
+                        <li class="footer__items">Район<a class="footer__links" href="#"></a></li>
+                        <li class="footer__items">Каталог квартир<a class="footer__links" href="#"></a></li>
+                        <li class="footer__items">Ипотека<a class="footer__links" href="#"></a></li>
+                        <li class="footer__items">Контакты<a class="footer__links" href="#"></a></li>
                     </ul>
                 </div>
                 <div class="footer__section">
@@ -138,16 +136,16 @@
                         <li class="footer__item">Телефон: 8 (812) 123-45-67</li>
                         <li class="footer__item">Отдел продаж: 10:00 - 20:00</li>
                         <li class="footer__item">E-mail: <span class="email">vip@housevip.ru</span></li>
-                        <div class="social__items">
-                            <a class="social__links" href="#"><img class="social__icon" src="./source/img/footer/youtube.png"></a>
-                            <a class="social__links" href="#"><img class="social__icon" src="./source/img/footer/vk.png"></a>
-                            <a class="social__links" href="#"><img class="social__icon" src="./source/img/footer/fb.png"></a>
-                            <a class="social__links" href="#"><img class="social__icon" src="./source/img/footer/instagram.png"></a>
-                        </div>
                     </ul>
+                </div>  
+                <div class="social__items">
+                    <a class="social__links" href="#"><img class="social__icon" src="./source/img/footer/youtube.png" alt ="youtube"></a>
+                    <a class="social__links" href="#"><img class="social__icon" src="./source/img/footer/vk.png" alt ="vk"></a>
+                    <a class="social__links" href="#"><img class="social__icon" src="./source/img/footer/fb.png" alt ="fb"></a>
+                    <a class="social__links" href="#"><img class="social__icon" src="./source/img/footer/instagram.png" alt ="instagram"></a>
                 </div>
             </div>
         </footer>
-    </wrap>
+    </div>
 </body>
 </html>

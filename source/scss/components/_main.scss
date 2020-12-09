@@ -59,14 +59,11 @@
 .main__gallery {
     margin: 2em 0em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    box-sizing: border-box;
 }
 .gallery__item {
     margin: 0.5em;
     width: 20em;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
     padding: 0.2em;
 }
