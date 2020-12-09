@@ -5,11 +5,28 @@
 }
 
 .main__description {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 3em auto;
+    margin: 2.5em auto;
     padding: 0.5em;
+}
+
+.description__latinic {
+    position: absolute;
+    margin-left: 65%;
+    width: 11em;
+    height: 13em;
+    font-size: clamp(12px, 1.5vw, 25px);
+}
+
+.gallery__latinic {
+    position: absolute;
+    margin: -10% 70% 0% 0%;
+    width: 13em;
+    height: 12em;
+    font-size: clamp(12px, 1.5vw, 25px);
 }
 
 .description__list {
@@ -57,6 +74,7 @@
 }
 
 .main__gallery {
+    position: relative;
     margin: 2em 0em;
     display: flex;
     flex-wrap: wrap;

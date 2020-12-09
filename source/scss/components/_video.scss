@@ -3,6 +3,7 @@
 }
 
 .video__container {
+    position: relative;
     display: flex;
     padding: 0.5em;
     width: 70%;
@@ -13,4 +14,12 @@
     margin: 1em auto 2em;
     width: 60%;
     height: auto;
+}
+
+.video__latinic {
+    position: absolute;
+    margin: 10% 0% 0% 80%;
+    width: 13em;
+    height: 12em;
+    font-size: clamp(12px, 1.5vw, 25px);
 }

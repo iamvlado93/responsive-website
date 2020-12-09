@@ -3,6 +3,7 @@
 }
 
 .location__container {
+    position: relative;
     display: flex;
     flex-direction: column;
     padding: 0.5em;
@@ -22,6 +23,14 @@
     margin: 1em auto;
     width: 85%;
     height: auto;
+}
+
+.location__latinic {
+    position: absolute;
+    margin: 7% 0% 0% -8%;
+    width: 10em;
+    height: 10em;
+    font-size: clamp(12px, 1.5vw, 25px);
 }
 
 .questions__container {
