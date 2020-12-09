@@ -435,7 +435,7 @@
   position: absolute;
   margin-left: 65%;
   width: 11em;
-  height: 13em;
+  height: auto;
   font-size: clamp(12px, 1.5vw, 25px);
 }
 
@@ -443,7 +443,7 @@
   position: absolute;
   margin: -10% 70% 0% 0%;
   width: 13em;
-  height: 12em;
+  height: auto;
   font-size: clamp(12px, 1.5vw, 25px);
 }
 
@@ -641,7 +641,7 @@
   position: absolute;
   margin: 10% 0% 0% 80%;
   width: 13em;
-  height: 12em;
+  height: auto;
   font-size: clamp(12px, 1.5vw, 25px);
 }
 
@@ -681,7 +681,7 @@
   position: absolute;
   margin: 7% 0% 0% -8%;
   width: 10em;
-  height: 10em;
+  height: auto;
   font-size: clamp(12px, 1.5vw, 25px);
 }
 
