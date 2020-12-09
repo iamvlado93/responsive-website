@@ -252,10 +252,12 @@
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .gallery__item {
     padding: 1em;
@@ -530,7 +532,7 @@
 
 .gallery__item {
   margin: 0.5em;
-  width: 26em;
+  width: 15em;
   padding: 0.2em;
 }
 
@@ -643,7 +645,7 @@
   position: absolute;
   margin: 10% 0% 0% 80%;
   width: 13em;
-  height: auto;
+  height: 12em;
   z-index: 1;
   font-size: clamp(12px, 1.5vw, 25px);
 }
